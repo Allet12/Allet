@@ -20,7 +20,5 @@ public class EmployeeFactory {
                     .setLastName(lastName)
                     .setContact(newContact)
                     .Build();
-
-
     }
 }

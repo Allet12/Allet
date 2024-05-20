@@ -42,4 +42,8 @@ public class EmployeeService implements IEmployeeService {
     public List<Employee> getall() {
         return employeerepository.findAll().stream().collect(Collectors.toList());
     }
+
+    public void delete(Long id) {
+        //return employeerepository.delete();
+    }
 }
